@@ -23,33 +23,33 @@ const { isReady } = useSmoothScroll()
 const deepFeatures = [
   {
     id: 'how-it-works',
-    label: 'How it works',
-    headline: 'A clear structure for every project',
-    description: 'Admins create teams and projects. Each project holds custom modules that categorize your tasks. Simple, structured, scalable.',
+    label: 'Comment ça marche',
+    headline: 'Une structure claire pour chaque projet',
+    description: 'Les admins créent des équipes et des projets. Chaque projet contient des modules personnalisés qui catégorisent vos tâches. Simple, structuré, évolutif.',
     reverse: false,
     visual: 'structure'
   },
   {
     id: 'modules',
-    label: 'Flexibility',
-    headline: 'Modules that match your workflow',
-    description: 'Design, Development, Marketing, SEO — or create your own. Modules act as smart labels that keep your tasks organized.',
+    label: 'Flexibilité',
+    headline: 'Des modules adaptés à votre workflow',
+    description: 'Design, Développement, Marketing, SEO — ou créez les vôtres. Les modules agissent comme des étiquettes intelligentes qui gardent vos tâches organisées.',
     reverse: true,
     visual: 'modules'
   },
   {
     id: 'views',
-    label: 'Visualization',
-    headline: 'See work the way you want',
-    description: 'Switch between Kanban boards, clean lists, or Gantt timelines. Same data, different perspectives.',
+    label: 'Visualisation',
+    headline: 'Voyez le travail comme vous le souhaitez',
+    description: 'Basculez entre tableaux Kanban, listes claires ou timelines Gantt. Mêmes données, différentes perspectives.',
     reverse: false,
     visual: 'views'
   },
   {
     id: 'admin',
-    label: 'Control',
-    headline: 'Built for team leaders',
-    description: 'Pro plan admins get full control: manage teams, assign projects, and oversee everything from a single dashboard.',
+    label: 'Contrôle',
+    headline: 'Conçu pour les chefs d\'équipe',
+    description: 'Les admins Pro ont le contrôle total : gérez les équipes, assignez des projets et supervisez tout depuis un seul tableau de bord.',
     reverse: true,
     visual: 'admin'
   }

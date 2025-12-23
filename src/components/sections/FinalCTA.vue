@@ -31,21 +31,21 @@ onMounted(() => {
     <div class="container">
       <div ref="contentRef" class="final-cta__content">
         <h2 class="heading-2 final-cta__headline">
-          Ready to plan with clarity?
+          Prêt à planifier avec clarté ?
         </h2>
         <p class="text-body-lg final-cta__subheadline">
-          Join thousands of teams shipping better work, faster.
+          Rejoignez des milliers d'équipes qui livrent un meilleur travail, plus rapidement.
         </p>
         <div class="final-cta__actions">
           <BaseButton variant="primary" size="lg">
-            Get Started Free
+            Commencer gratuitement
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
           </BaseButton>
         </div>
         <p class="final-cta__note">
-          No credit card required • Free forever for small teams
+          Pas de carte de crédit requise • Gratuit pour toujours pour les petites équipes
         </p>
       </div>
     </div>

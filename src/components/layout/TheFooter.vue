@@ -8,25 +8,25 @@ const currentYear = new Date().getFullYear()
 
 const footerLinks = {
   product: [
-    { label: 'Features', href: '#features' },
-    { label: 'Pricing', href: '#pricing' },
-    { label: 'Roadmap', href: '#' },
+    { label: 'Fonctionnalités', href: '#features' },
+    { label: 'Tarifs', href: '#pricing' },
+    { label: 'Feuille de route', href: '#' },
     { label: 'Changelog', href: '#' }
   ],
   resources: [
     { label: 'Documentation', href: '#' },
-    { label: 'Help Center', href: '#' },
+    { label: 'Centre d\'aide', href: '#' },
     { label: 'Blog', href: '#' },
-    { label: 'Community', href: '#' }
+    { label: 'Communauté', href: '#' }
   ],
   company: [
-    { label: 'About', href: '#' },
-    { label: 'Careers', href: '#' },
+    { label: 'À propos', href: '#' },
+    { label: 'Carrières', href: '#' },
     { label: 'Contact', href: '#' }
   ],
   legal: [
-    { label: 'Privacy', href: '#' },
-    { label: 'Terms', href: '#' }
+    { label: 'Confidentialité', href: '#' },
+    { label: 'Conditions', href: '#' }
   ]
 }
 
@@ -49,7 +49,7 @@ const socialLinks = [
             <span class="footer__logo-text">HD Planner</span>
           </a>
           <p class="footer__tagline">
-            Plan work clearly. Ship faster.
+            Planifiez clairement. Livrez plus vite.
           </p>
           <div class="footer__social">
             <a 
@@ -67,7 +67,7 @@ const socialLinks = [
         <!-- Links -->
         <div class="footer__links">
           <div class="footer__column">
-            <h4 class="footer__heading">Product</h4>
+            <h4 class="footer__heading">Produit</h4>
             <ul class="footer__list">
               <li v-for="link in footerLinks.product" :key="link.label">
                 <a :href="link.href" class="footer__link">{{ link.label }}</a>
@@ -76,7 +76,7 @@ const socialLinks = [
           </div>
 
           <div class="footer__column">
-            <h4 class="footer__heading">Resources</h4>
+            <h4 class="footer__heading">Ressources</h4>
             <ul class="footer__list">
               <li v-for="link in footerLinks.resources" :key="link.label">
                 <a :href="link.href" class="footer__link">{{ link.label }}</a>
@@ -85,7 +85,7 @@ const socialLinks = [
           </div>
 
           <div class="footer__column">
-            <h4 class="footer__heading">Company</h4>
+            <h4 class="footer__heading">Entreprise</h4>
             <ul class="footer__list">
               <li v-for="link in footerLinks.company" :key="link.label">
                 <a :href="link.href" class="footer__link">{{ link.label }}</a>
@@ -94,7 +94,7 @@ const socialLinks = [
           </div>
 
           <div class="footer__column">
-            <h4 class="footer__heading">Legal</h4>
+            <h4 class="footer__heading">Légal</h4>
             <ul class="footer__list">
               <li v-for="link in footerLinks.legal" :key="link.label">
                 <a :href="link.href" class="footer__link">{{ link.label }}</a>
@@ -107,7 +107,7 @@ const socialLinks = [
       <!-- Bottom Section -->
       <div class="footer__bottom">
         <p class="footer__copyright">
-          © {{ currentYear }} HD Planner. All rights reserved.
+          © {{ currentYear }} HD Planner. Tous droits réservés.
         </p>
       </div>
     </div>

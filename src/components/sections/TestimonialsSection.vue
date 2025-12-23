@@ -12,22 +12,22 @@ const isVisible = ref(false)
 
 const testimonials = [
   {
-    quote: "Finally, a tool that doesn't overwhelm our team. We can actually focus on the work.",
+    quote: "Enfin, un outil qui ne submerge pas notre équipe. Nous pouvons vraiment nous concentrer sur le travail.",
     author: 'Sarah Mitchell',
-    role: 'Product Lead',
+    role: 'Responsable Produit',
     company: 'StartupX'
   },
   {
-    quote: "The clarity is unmatched. We shipped 2x faster after switching to HD Planner.",
+    quote: "La clarté est incomparable. Nous avons livré 2x plus vite après être passés à HD Planner.",
     author: 'James Kim',
-    role: 'CTO',
+    role: 'Directeur Technique',
     company: 'AgencyFlow'
   },
   {
-    quote: "Simple, structured, and it just works. Exactly what I needed as a freelancer.",
+    quote: "Simple, structuré, et ça fonctionne. Exactement ce dont j'avais besoin en tant que freelance.",
     author: 'Maria Lopez',
-    role: 'Freelance Designer',
-    company: 'Self-employed'
+    role: 'Designer Freelance',
+    company: 'Indépendante'
   }
 ]
 
@@ -43,9 +43,9 @@ onMounted(async () => {
   <section ref="sectionRef" class="testimonials section">
     <div class="container">
       <div :class="['testimonials__header', { 'is-visible': isVisible }]">
-        <span class="text-label">Testimonials</span>
+        <span class="text-label">Témoignages</span>
         <h2 class="heading-2 testimonials__title">
-          What our users say
+          Ce que disent nos utilisateurs
         </h2>
       </div>
 

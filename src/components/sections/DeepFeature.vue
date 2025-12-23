@@ -66,16 +66,16 @@ onMounted(() => {
             <div class="visual__connector"></div>
             <div class="visual__row">
               <div class="visual__node visual__node--team">
-                <span class="visual__icon">👥</span> Team A
+                <span class="visual__icon">👥</span> Équipe A
               </div>
               <div class="visual__node visual__node--team">
-                <span class="visual__icon">👥</span> Team B
+                <span class="visual__icon">👥</span> Équipe B
               </div>
             </div>
             <div class="visual__connector"></div>
             <div class="visual__row">
               <div class="visual__node visual__node--project">
-                <span class="visual__icon">📁</span> Project
+                <span class="visual__icon">📁</span> Projet
               </div>
             </div>
             <div class="visual__connector"></div>
@@ -95,7 +95,7 @@ onMounted(() => {
               </div>
               <div class="module module--dev">
                 <span class="module__icon">💻</span>
-                <span class="module__name">Development</span>
+                <span class="module__name">Développement</span>
               </div>
               <div class="module module--marketing">
                 <span class="module__icon">📣</span>
@@ -107,7 +107,7 @@ onMounted(() => {
               </div>
               <div class="module module--custom">
                 <span class="module__icon">➕</span>
-                <span class="module__name">Custom</span>
+                <span class="module__name">Personnalisé</span>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ onMounted(() => {
           <div v-else-if="visual === 'views'" class="visual visual--views">
             <div class="views__tabs">
               <div class="views__tab views__tab--active">Kanban</div>
-              <div class="views__tab">List</div>
+              <div class="views__tab">Liste</div>
               <div class="views__tab">Gantt</div>
             </div>
             <div class="views__preview">
@@ -139,20 +139,20 @@ onMounted(() => {
           <div v-else-if="visual === 'admin'" class="visual visual--admin">
             <div class="admin__header">
               <span class="admin__badge">Pro</span>
-              Admin Dashboard
+              Tableau de bord Admin
             </div>
             <div class="admin__stats">
               <div class="admin__stat">
                 <span class="admin__stat-value">12</span>
-                <span class="admin__stat-label">Projects</span>
+                <span class="admin__stat-label">Projets</span>
               </div>
               <div class="admin__stat">
                 <span class="admin__stat-value">48</span>
-                <span class="admin__stat-label">Tasks</span>
+                <span class="admin__stat-label">Tâches</span>
               </div>
               <div class="admin__stat">
                 <span class="admin__stat-value">8</span>
-                <span class="admin__stat-label">Members</span>
+                <span class="admin__stat-label">Membres</span>
               </div>
             </div>
           </div>

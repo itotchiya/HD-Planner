@@ -11,9 +11,9 @@ const isScrolled = ref(false)
 const isMobileMenuOpen = ref(false)
 
 const navLinks = [
-  { label: 'Features', href: '#features' },
-  { label: 'How it Works', href: '#how-it-works' },
-  { label: 'Pricing', href: '#pricing' }
+  { label: 'Fonctionnalités', href: '#features' },
+  { label: 'Comment ça marche', href: '#how-it-works' },
+  { label: 'Tarifs', href: '#pricing' }
 ]
 
 const handleScroll = () => {
@@ -56,8 +56,8 @@ onUnmounted(() => {
 
       <!-- CTA Buttons -->
       <div class="navbar__actions">
-        <BaseButton variant="ghost" size="sm">Sign In</BaseButton>
-        <BaseButton variant="primary" size="sm">Get Started</BaseButton>
+        <BaseButton variant="ghost" size="sm">Connexion</BaseButton>
+        <BaseButton variant="primary" size="sm">Commencer</BaseButton>
       </div>
 
       <!-- Mobile Menu Toggle -->
@@ -88,8 +88,8 @@ onUnmounted(() => {
           {{ link.label }}
         </a>
         <div class="navbar__mobile-actions">
-          <BaseButton variant="secondary" size="md">Sign In</BaseButton>
-          <BaseButton variant="primary" size="md">Get Started</BaseButton>
+          <BaseButton variant="secondary" size="md">Connexion</BaseButton>
+          <BaseButton variant="primary" size="md">Commencer</BaseButton>
         </div>
       </nav>
     </div>

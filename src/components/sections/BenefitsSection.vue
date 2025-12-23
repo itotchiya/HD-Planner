@@ -12,23 +12,23 @@ const isVisible = ref(false)
 const benefits = [
   {
     icon: '⚡',
-    title: 'Ship faster',
-    description: 'Less clutter means faster decisions. Focus on building, not managing.'
+    title: 'Livrez plus vite',
+    description: 'Moins d\'encombrement signifie des décisions plus rapides. Concentrez-vous sur la construction, pas la gestion.'
   },
   {
     icon: '🎯',
-    title: 'Stay focused',
-    description: 'One project, one view, one goal. Cut through the noise.'
+    title: 'Restez concentré',
+    description: 'Un projet, une vue, un objectif. Éliminez le bruit.'
   },
   {
     icon: '🧘',
-    title: 'Reduce stress',
-    description: 'Calm interface, clear priorities. Work without overwhelm.'
+    title: 'Réduisez le stress',
+    description: 'Interface calme, priorités claires. Travaillez sans être submergé.'
   },
   {
     icon: '📈',
-    title: 'Scale easily',
-    description: 'From solo to team in minutes. Grow without friction.'
+    title: 'Évoluez facilement',
+    description: 'Du solo à l\'équipe en quelques minutes. Grandissez sans friction.'
   }
 ]
 
@@ -44,9 +44,9 @@ onMounted(async () => {
   <section ref="sectionRef" class="benefits section">
     <div class="container">
       <div :class="['benefits__header', { 'is-visible': isVisible }]">
-        <span class="text-label">Why HD Planner</span>
+        <span class="text-label">Pourquoi HD Planner</span>
         <h2 class="heading-2 benefits__title">
-          Why teams choose clarity
+          Pourquoi les équipes choisissent la clarté
         </h2>
       </div>
 

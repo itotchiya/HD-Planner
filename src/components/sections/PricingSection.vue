@@ -12,32 +12,32 @@ const isVisible = ref(false)
 
 const plans = [
   {
-    name: 'Free',
-    price: '$0',
-    period: '/month',
+    name: 'Gratuit',
+    price: '0€',
+    period: '/mois',
     features: [
-      'Up to 3 team members',
-      '2 projects',
-      'Kanban view only',
-      'Default modules',
-      'Community support'
+      'Jusqu\'à 3 membres',
+      '2 projets',
+      'Vue Kanban uniquement',
+      'Modules par défaut',
+      'Support communautaire'
     ],
-    cta: 'Start Free',
+    cta: 'Commencer gratuitement',
     highlighted: false
   },
   {
     name: 'Pro',
-    price: '$12',
-    period: '/user/month',
+    price: '12€',
+    period: '/utilisateur/mois',
     features: [
-      'Unlimited team members',
-      'Unlimited projects',
-      'All views (Kanban, List, Gantt)',
-      'Custom modules',
-      'Admin controls',
-      'Priority support'
+      'Membres illimités',
+      'Projets illimités',
+      'Toutes les vues (Kanban, Liste, Gantt)',
+      'Modules personnalisés',
+      'Contrôles admin',
+      'Support prioritaire'
     ],
-    cta: 'Upgrade to Pro',
+    cta: 'Passer à Pro',
     highlighted: true
   }
 ]
@@ -54,12 +54,12 @@ onMounted(async () => {
   <section id="pricing" ref="sectionRef" class="pricing-section section">
     <div class="container">
       <div :class="['pricing-section__header', { 'is-visible': isVisible }]">
-        <span class="text-label">Pricing</span>
+        <span class="text-label">Tarifs</span>
         <h2 class="heading-2 pricing-section__title">
-          Simple, transparent pricing
+          Tarification simple et transparente
         </h2>
         <p class="text-body-lg pricing-section__subtitle">
-          Start free, upgrade when you need more.
+          Commencez gratuitement, évoluez quand vous en avez besoin.
         </p>
       </div>
 

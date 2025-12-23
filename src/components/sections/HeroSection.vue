@@ -40,31 +40,31 @@ onMounted(() => {
         <!-- Label -->
         <div class="hero__label">
           <span class="hero__label-dot"></span>
-          Project Management, Simplified
+          Gestion de projets, simplifiée
         </div>
 
         <!-- Headline -->
         <h1 ref="headlineRef" class="hero__headline heading-1">
-          Plan work clearly.<br />
-          <span class="hero__headline-accent">Ship faster.</span>
+          Planifiez clairement.<br />
+          <span class="hero__headline-accent">Livrez plus vite.</span>
         </h1>
 
         <!-- Subheadline -->
         <p ref="subheadlineRef" class="hero__subheadline text-body-lg">
-          HD Planner is a calm, structured project management tool for teams who value clarity over chaos. 
-          Organize projects, customize workflows, and see work your way.
+          HD Planner est un outil de gestion de projets calme et structuré pour les équipes qui privilégient la clarté au chaos. 
+          Organisez vos projets, personnalisez vos workflows et visualisez votre travail comme vous le souhaitez.
         </p>
 
         <!-- CTAs -->
         <div ref="ctaRef" class="hero__cta">
           <BaseButton variant="primary" size="lg">
-            Get Started Free
+            Commencer gratuitement
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
           </BaseButton>
           <BaseButton variant="secondary" size="lg">
-            See How It Works
+            Voir comment ça marche
           </BaseButton>
         </div>
       </div>
@@ -85,31 +85,31 @@ onMounted(() => {
               <div class="hero__dashboard-sidebar">
                 <div class="hero__sidebar-item hero__sidebar-item--active">
                   <span class="hero__sidebar-icon">📁</span>
-                  Projects
+                  Projets
                 </div>
                 <div class="hero__sidebar-item">
                   <span class="hero__sidebar-icon">✓</span>
-                  Tasks
+                  Tâches
                 </div>
                 <div class="hero__sidebar-item">
                   <span class="hero__sidebar-icon">👥</span>
-                  Team
+                  Équipe
                 </div>
               </div>
               <!-- Main Content -->
               <div class="hero__dashboard-main">
                 <div class="hero__kanban">
                   <div class="hero__kanban-col">
-                    <div class="hero__kanban-header">To Do</div>
+                    <div class="hero__kanban-header">À faire</div>
                     <div class="hero__kanban-card"></div>
                     <div class="hero__kanban-card"></div>
                   </div>
                   <div class="hero__kanban-col">
-                    <div class="hero__kanban-header">In Progress</div>
+                    <div class="hero__kanban-header">En cours</div>
                     <div class="hero__kanban-card hero__kanban-card--accent"></div>
                   </div>
                   <div class="hero__kanban-col">
-                    <div class="hero__kanban-header">Done</div>
+                    <div class="hero__kanban-header">Terminé</div>
                     <div class="hero__kanban-card"></div>
                     <div class="hero__kanban-card"></div>
                     <div class="hero__kanban-card"></div>

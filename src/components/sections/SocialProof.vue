@@ -35,7 +35,7 @@ onMounted(() => {
   <section ref="sectionRef" class="social-proof">
     <div class="container">
       <p class="social-proof__heading">
-        Trusted by forward-thinking teams
+        Approuvé par des équipes visionnaires
       </p>
       <div ref="logosRef" class="social-proof__logos">
         <div 

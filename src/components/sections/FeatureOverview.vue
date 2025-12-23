@@ -13,18 +13,18 @@ const isVisible = ref(false)
 const features = [
   {
     icon: '📁',
-    title: 'Projects & Teams',
-    description: 'Organize work into projects with dedicated teams. Keep everything structured and accessible.'
+    title: 'Projets & Équipes',
+    description: 'Organisez le travail en projets avec des équipes dédiées. Gardez tout structuré et accessible.'
   },
   {
     icon: '🏷️',
-    title: 'Custom Modules',
-    description: 'Label tasks with Design, Dev, Marketing, or create your own. Modules keep tasks organized.'
+    title: 'Modules personnalisés',
+    description: 'Étiquetez les tâches avec Design, Dev, Marketing, ou créez les vôtres. Les modules gardent les tâches organisées.'
   },
   {
     icon: '👁️',
-    title: 'Multiple Views',
-    description: 'Kanban, List, or Gantt — see work your way. Switch views instantly, same data, different perspectives.'
+    title: 'Vues multiples',
+    description: 'Kanban, Liste ou Gantt — visualisez le travail à votre façon. Changez de vue instantanément, mêmes données, différentes perspectives.'
   }
 ]
 
@@ -41,12 +41,12 @@ onMounted(async () => {
   <section id="features" ref="sectionRef" class="feature-overview section">
     <div class="container">
       <div :class="['feature-overview__header', { 'is-visible': isVisible }]">
-        <span class="text-label">Features</span>
+        <span class="text-label">Fonctionnalités</span>
         <h2 class="heading-2 feature-overview__title">
-          Everything you need to ship
+          Tout ce qu'il vous faut pour livrer
         </h2>
         <p class="text-body-lg feature-overview__subtitle">
-          Simple, powerful tools that help you focus on what matters.
+          Des outils simples et puissants qui vous aident à vous concentrer sur l'essentiel.
         </p>
       </div>
 
